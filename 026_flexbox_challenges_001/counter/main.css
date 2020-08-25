@@ -1,0 +1,61 @@
+html, body, div {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 3vw;
+}
+
+#atf {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#counter {
+  height: 3.8rem;
+  width: 20rem;
+  display: flex;
+  border: 2px solid black;
+  border-radius: 1rem;
+}
+
+#counter1 {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid black;
+  background-color: skyblue;
+  border-radius: 1rem 0 0 1rem;
+  cursor: pointer;
+}
+
+#counter2 {
+  flex-grow: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#counter3 {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid black;
+  background-color: skyblue;
+  border-radius: 0 1rem 1rem 0;
+  cursor: pointer;
+}
+
+#counter1:hover {
+  background-color: green;
+}
+
+#counter3:hover {
+  background-color: green;
+}
