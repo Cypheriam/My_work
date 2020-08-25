@@ -1,0 +1,94 @@
+header nav a, header div img {
+  display: none;
+}
+
+header {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding here also works to move header containers away from edge but
+  i decided to do what the lecturer did */
+  /* padding: 10px;
+  box-sizing: border-box; */
+}
+
+.contain_left {
+  height: 20px;
+  width: 100%;
+  /* background: red; */
+  margin: 0 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+header h1:hover {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+}
+
+#idx-main {
+  /* layout */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgray;
+  background-image: url(../img/background-photo-mobile-devices.jpg);
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#idx-main > div {
+  height: 90vh;
+}
+
+.idx-center {
+  /* layout */
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.idx-center-mid {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin: 0;
+  padding-left: 0;
+  }
+
+li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 30px;
+  background-color: #32b3e6;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+li:hover {
+  background-color: #c177e0;
+}

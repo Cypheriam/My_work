@@ -1,0 +1,49 @@
+#idx-main {
+  background-image: url(../img/background-photo.jpg);
+}
+
+#idx-main > div {
+  height: 14vh;
+}
+
+.left_icon {
+  height: 25px;
+}
+
+header h1 {
+  margin-left: -1rem;
+}
+
+.contain_right {
+  height: 20px;
+  width: 15%;
+  margin: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+.contain_left {
+  width: 15%;
+  justify-content: flex-start;
+}
+
+.nav_icon {
+    height: 25px;
+    padding: 5px;
+  }
+
+.nav_icon:hover {
+  background-color: rgba(255, 0, 125, 0.5);
+  border-radius: 40%;
+  width: 30px;
+}
+
+
+header nav a, header div img {
+  display: flex;
+}
+
+ul {
+  display: none;
+}
