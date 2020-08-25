@@ -1,0 +1,41 @@
+html, body, main, article, div {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+article {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+  width: 80%;
+  border: 1px solid grey;
+  border-radius: 10%;
+}
+
+div {
+  width: 80%;
+  height: 33%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 2rem;
+}
+
+#one, #two {
+  border-bottom: 1px solid grey;
+}
+
+img {
+  padding: 20px;
+}
