@@ -1,0 +1,45 @@
+html, body, div {
+  box-sizing: border-box;
+}
+
+html {
+  background: black;
+}
+
+body {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.c1, .c2, .c3, .c4, .c5, .c6, .c7 {
+  width: 100%;
+  min-height: 100px;
+}
+
+.c1 {
+  background: red;
+}
+
+.c2 {
+  background: blue;
+}
+
+.c3 {
+  background: orange;
+}
+
+.c4 {
+  background: pink;
+}
+
+.c5 {
+  background: green;
+}
+
+.c6 {
+  background: turquoise;
+}
+
+.c7 {
+  background: magenta;
+}
