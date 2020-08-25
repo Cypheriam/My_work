@@ -1,0 +1,50 @@
+html, body, div {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#mover {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  position: relative;
+  animation-name: bounce;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes bounce {
+  0% { left: 34.3%; }
+  0% { background-color: blue; }
+  0% { border: 10px groove blue; }
+  50% { background-color: yellow; }
+  50% { border: 10px groove yellow; }
+  100% { left: -34.3%; }
+  100% { background-color: green; }
+  100% { border: 10px groove green; }
+}
+
+p {
+  font-weight: 700;
+  text-transform: uppercase;
+  animation-name: tsize;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes tsize {
+  0% { font-size: 0.4rem; }
+  100% { font-size: 5rem; }
+}
